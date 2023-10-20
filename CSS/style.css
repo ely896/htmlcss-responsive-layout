@@ -1,9 +1,80 @@
+/*Region Debug */
+.debug #site-header {
+    height: 80px;
+    background-color: var(--bool-primary);    
+}
+
+
+
+/* Region Common */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+:root {
+    --bool-dark: #333333;
+    --bool-primary: #0084fd; 
+    --bool-violet: #9792e4;
+    --bool-white: #ffffff; 
+    --bool-yellow: #fdc15f;
+}
+
 body {
     font-family: 'Sometype Mono', monospace;
 }
+/*End Region Common
+
+/* Utility */
+
+.container {
+    width: 80%;
+    max-width: 1152px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1rem;
+}
+
+[class^="col-"] {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-flex {
+    width: 80%;
+    max-width: 1152px;
+    margin: auto;
+    display: flex;
+}
+
+.col-2 {
+    width: calc(100% / 12 * 2);
+}
+
+.d-flex {
+    display: flex;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+
+
+.rigth-menu ul {
+    display: flex;
+    list-style: none;
+    
+
+    & a {
+        text-decoration: none;
+    }   
+}
+
+
+
