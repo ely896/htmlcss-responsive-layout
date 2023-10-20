@@ -1,10 +1,10 @@
 /* Region Debug */
-.debug .site-header {
+/* .debug .site-header {
     height: 80px;
     background-color:darkgreen;
-}
+} */
 
-.debug .application {
+.debug .a.features {
     height: 400px;
     background-color: cadetblue;
 }
@@ -47,6 +47,7 @@
     height: 100px;
     background-color: var(--bool-dark);
 }
+
 /* Region Common */
 *{
     margin: 0;
@@ -60,12 +61,13 @@
     --bool-violet: #9792e4;
     --bool-white: #ffffff; 
     --bool-yellow: #fdc15f;
+    --bool-white: #ffffff;
 }
 
 body {
     font-family: 'Sometype Mono', monospace;
 }
-/*End Region Common
+/*End Region Common */
 
 /* Utility */
 
@@ -97,3 +99,70 @@ body {
 .col-6 {
     width: calc((100% / 12) * 6);
 }
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    gap: 1.5rem;
+    
+}
+a {
+    text-decoration: none;
+    color: var(--bool-white);
+    font-size: 1rem;    
+}
+
+
+.align-items-center {
+    align-items: center;
+}
+
+/*Region Buttons */
+.btn {
+    display: inline-block;
+    border: none;
+    background-color: transparent;
+    padding: 0.25rem 0.5rem;
+    border-radius: 1rem;
+    text-decoration: none;    
+}
+
+.btn-white {
+    background-color: var(--bool-white);
+    color: var(--bool-dark);
+}
+
+.btn-violet {
+    background-color: var(--bool-violet);
+}
+
+.btn-primary {
+    background-color: var(--bool-primary);
+    color: var(--bool-white);
+}
+
+
+
+/* Region Header */
+
+.site-header {
+    background-color: var(--bool-primary);
+}
+
+.container-header {
+    width: 60%;
+    margin: auto;   
+}
+
+.rigth-menu {
+    gap: 1rem;   
+}
+
+
