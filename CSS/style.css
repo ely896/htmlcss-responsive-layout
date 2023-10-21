@@ -45,7 +45,7 @@
 }
 .debug .site-footer {
     height: 100px;
-    background-color: var(--bool-dark);
+    background-color: var(--lay-dark);
 }
 
 /* Region Common */
@@ -92,7 +92,7 @@ body {
 
 .col-8 {
     width: calc((100% / 12) * 8);
-    background-color: var(--bool-blu);
+    background-color: var(--lay-blu);
     border-radius: 1rem;
     padding: 2rem;
     line-height: 1.5rem;    
@@ -100,7 +100,7 @@ body {
 
 .col-4 {
     width: calc((100% / 12 ) * 4);
-    background-color: var(--bool-blu);
+    background-color: var(--lay-blu);
     border-radius: 1rem;
 }
 
@@ -123,7 +123,7 @@ ul {
 }
 a {
     text-decoration: none;
-    color: var(--bool-white);
+    color: var(--lay-white);
     font-size: 1rem;    
 }
 
@@ -143,19 +143,19 @@ a {
 }
 
 .btn-white {
-    background-color: var(--bool-white);
-    color: var(--bool-dark);
+    background-color: var(--lay-white);
+    color: var(--lay-dark);
 }
 
 .btn-violet {
-    background-color: var(--bool-violet);
+    background-color: var(--lay-violet);
    
     
 }
 
 .btn-primary {
-    background-color: var(--bool-primary);
-    color: var(--bool-white);
+    background-color: var(--lay-primary);
+    color: var(--lay-white);
     letter-spacing: 0.25rem;
     font-weight: 700;
 }
@@ -165,7 +165,7 @@ a {
 /* Region Header */
 
 .site-header {
-    background-color: var(--bool-primary);
+    background-color: var(--lay-primary);
 }
 
 .container-header {
@@ -188,7 +188,7 @@ a {
 
 p {
     font-weight: 800;
-    color: var(--bool-gray);
+    color: var(--lay-gray);
 }
 
 
