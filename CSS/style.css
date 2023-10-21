@@ -166,3 +166,32 @@ a {
 }
 
 
+
+
+/*Region Solution Media Query */ 
+
+@media screen and (max-width: 480px) {
+    .site-header {
+        width: 100%;
+    }
+    .rigth-menu {
+        display: none;   
+    }        
+}
+
+@media screen and (max-width: 780px) {
+    .site-header {
+        width: 100%;
+    }
+    .rigth-menu {
+        display: none;   
+    }
+        
+}
+
+@media screen and (min-width: 781px) {
+    .hamburger {
+        display: none;
+    }
+}
+
