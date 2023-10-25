@@ -176,10 +176,6 @@ h2 {
         background-color: var(--lay-blu);
     }
 
-    .col-md-6 {
-        width: calc((100% / 12) * 6);
-    }
-
     .col-md-12 {
         width: 100%;
     }
@@ -190,6 +186,14 @@ h2 {
 @media screen and (min-width: 781px) {
     .hamburger {
         display: none;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    
+    .col-lg-6 {
+        width: calc((100% / 12) * 6);
     }
 }
 
