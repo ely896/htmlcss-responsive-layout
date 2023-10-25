@@ -209,5 +209,8 @@ h2 {
     .col-lg-6 {
         width: calc((100% / 12) * 6);
     }
-}
+
+    .col-lg-4 {
+        width: calc((100% /12) * 4);
+    }
 
