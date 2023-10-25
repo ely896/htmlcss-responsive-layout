@@ -1,7 +1,8 @@
 /* Region Debug */
+/* 
 .debug header {
     height: 80px;
-}
+} */
 
 .debug main {
     min-height: 3000px;
@@ -167,15 +168,14 @@ h2 {
 
 /* /*Region Solution Media Query */ 
 
+
+
 @media screen and (min-width: 768px) {
 
      #site_header {
         width: 100%;
     }
-    .rigth-menu {
-        display: none;   
-    }
-
+   
     .container {
         width: 100%;
     }
@@ -192,15 +192,21 @@ h2 {
 
     .col-md-12 {
         width: 100%;
+    }    
+}
+
+@media screen and (max-width: 768px) {
+    .rigth-menu {
+        display: none;
     }
     
 }
 
-
-@media screen and (min-width: 781px) {
+@media screen and (min-width: 761px) {
     .hamburger {
         display: none;
     }
+
 }
 
 
