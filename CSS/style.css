@@ -4,7 +4,7 @@
 }
 
 .debug main {
-    height: 2000px;
+    min-height: 3000px;
     background-color: cadetblue;
 }
 
@@ -83,6 +83,10 @@ body {
     justify-content: space-between;
 }
 
+.text-align-center {
+    text-align: center;
+}
+
 ul {
     list-style: none;
     gap: 1.5rem;
@@ -150,6 +154,16 @@ h2 {
     color: var(--lay-primary);
 }
 
+/* Region Testimonials */
+
+.box-photo {
+    border: 1px solid bisque;
+    border-radius: 50%;
+}
+
+.box-img {
+    max-width: 100%;
+}
 
 /* /*Region Solution Media Query */ 
 
