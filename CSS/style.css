@@ -5,8 +5,7 @@
 } */
 
 .debug main {
-    min-height: 3000px;
-    background-color: cadetblue;
+    min-height: 3000px;   
 }
 
 .debug footer {
@@ -49,7 +48,7 @@ body {
 }
 
 .row {
-    margin: 0 --1rem;
+    margin: 0 -1rem;
     padding: 1rem;
     gap: 1rem;
 }
@@ -80,10 +79,6 @@ body {
 
 .justify-content-between {
     justify-content: space-between;
-}
-
-.stretch {
-    justify-content: stretch;
 }
 
 .text-align-center {
@@ -124,8 +119,7 @@ a {
 
 .btn-violet {
     background-color: var(--lay-violet);
-    color: var(--lay-white);
-    
+    color: var(--lay-white);    
 }
 
 .btn-primary {
@@ -133,6 +127,14 @@ a {
     color: var(--lay-white);
     letter-spacing: 0.25rem;
     font-weight: 700;
+}
+
+.btn-circle {
+    background-color: var(--lay-violet);
+    color: black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
 }
 
 /* Region Header */
@@ -146,18 +148,18 @@ header {
 
 /*Start Region Features */
 
+.feautures p {
+    color: var(--lay-gray);
+    font-weight: 700;
+}
+
 .application {
     text-align: left;
     line-height: 2rem;
-
 }
+
 .phone-img img {
     max-width: 100%;
-}
-
-p {
-    font-weight: 800;
-    color: var(--lay-gray);
 }
 
 h3 {
@@ -172,7 +174,32 @@ h3 {
     color: var(--lay-primary);
 }
 
+/* #region Planning */
 
+.strategic img {
+    max-width: 100%;
+}
+
+.planning {
+    background-color: var(--lay-violet);
+}
+
+.planning .col-12 {
+    background-color: var(--lay-violet);
+    color: var(--lay-white);
+    text-align: left;  
+}
+
+.develop img {
+    max-width: 100%;
+}
+
+.develop {
+    background-color: var(--lay-white);
+    color: black;
+    border-radius: 3rem;
+    text-align: center;   
+}
 
 /* Region Testimonials */
 
