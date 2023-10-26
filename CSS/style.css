@@ -201,16 +201,54 @@ h3 {
     text-align: center;   
 }
 
+/* #endregion Plannning
+
 /* Region Testimonials */
 
+.text-testimonials {
+    margin-top: 2rem;
+    line-height: 1.5rem;
+}
+
+.text-testimonials h4 {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.text-testimonials h2 {
+    font-size: 2rem;
+    color: var(--lay-violet);
+    font-weight: 900;
+}
+
 .box-photo {
-    border: 1px solid bisque;
+    width: 10rem;
+    height: 10rem;
+    margin: auto;  
+}
+
+.box-photo img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 50%;
 }
 
-.box-img {
-    max-width: 100%;
+.cards .col-12 {
+    background-color: var(--lay-violet);
+    color: var(--lay-white);
+    text-align: center;
+    border-radius: 3rem;
+    margin: 2rem;
 }
+
+.box-text-testimonials h4 {
+    color: var(--lay-white);
+    text-transform: uppercase;
+}
+
+/* endregion Testimonials */
 
 /* /*Region Solution Media Query */ 
 
@@ -239,6 +277,14 @@ h3 {
     .col-md-12 {
         width: 100%;
     }
+
+    .cards .col-12 {
+        display: flex;
+        align-items: center;
+        padding-top: 1rem 1rem;
+        text-align: justify;     
+    }
+
     
 }
 
