@@ -250,6 +250,25 @@ h3 {
 
 /* endregion Testimonials */
 
+/* Region Benefits */
+
+.benefits {
+    background-color: var(--lay-violet);
+    color: var(--lay-white);
+}
+
+.benefits .col-12 {
+    background-color: var(--lay-white);
+    color: var(--lay-violet);
+    padding: 2rem 2rem;
+    margin: 1.5rem;
+}
+
+.benefits p {
+    color: var(--lay-gray);
+}
+
+
 /* /*Region Solution Media Query */ 
 
 
