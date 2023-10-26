@@ -13,13 +13,6 @@
     height: 100px;
     background-color: var(--lay-dark);
 }
-.debug .col-12 {
-    min-height: 200px;
-    border: 1px dotted red;
-}
-
-
-
 
 /* #end Region Debug */
 
@@ -56,10 +49,12 @@ body {
 }
 
 .row {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 -1rem;
+    margin: 0 --1rem;
+    padding: 1rem;
+    gap: 1rem;
 }
+
+
 
 [class^="col-"] {
     padding-left: 1rem;
@@ -69,6 +64,9 @@ body {
 .col-12 {
     width: 100%;
     background-color: var(--lay-blu);
+    border-radius: 1rem;
+    padding-top: 2rem;
+    line-height: 2rem;
 }
 
 
@@ -82,6 +80,10 @@ body {
 
 .justify-content-between {
     justify-content: space-between;
+}
+
+.stretch {
+    justify-content: stretch;
 }
 
 .text-align-center {
@@ -111,7 +113,8 @@ a {
     background-color: transparent;
     padding: 0.25rem 0.5rem;
     border-radius: 1rem;
-    text-decoration: none;    
+    text-decoration: none;
+        
 }
 
 .btn-white {
@@ -120,7 +123,9 @@ a {
 }
 
 .btn-violet {
-    background-color: var(--lay-violet);   
+    background-color: var(--lay-violet);
+    color: var(--lay-white);
+    
 }
 
 .btn-primary {
@@ -141,8 +146,12 @@ header {
 
 /*Start Region Features */
 
+.application {
+    text-align: left;
+    line-height: 2rem;
 
-.phone img {
+}
+.phone-img img {
     max-width: 100%;
 }
 
@@ -151,9 +160,19 @@ p {
     color: var(--lay-gray);
 }
 
-h2 {
+h3 {
+    color: var(--lay-primary);
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 1.5rem;
+}
+
+#stylize {
+    font-size: 5rem;
     color: var(--lay-primary);
 }
+
+
 
 /* Region Testimonials */
 
@@ -192,21 +211,21 @@ h2 {
 
     .col-md-12 {
         width: 100%;
-    }    
+    }
+    
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .rigth-menu {
         display: none;
     }
     
 }
 
-@media screen and (min-width: 761px) {
+@media screen and (min-width: 1023px) {
     .hamburger {
         display: none;
     }
-
 }
 
 
