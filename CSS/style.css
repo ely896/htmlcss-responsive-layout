@@ -24,7 +24,7 @@
 }
 
 :root {
-    --lay-dark: #333333;
+    --lay-dark: #323333;
     --lay-primary: #0084fd;
     --lay-blu: #b5ddff; 
     --lay-violet: #9792e4;
@@ -42,6 +42,13 @@ body {
 /* #Region Utility */
 
 .container {
+    width: 80%;
+    max-width: 500px;
+    margin: auto;
+}
+
+
+.container-sm {
     width: 80%;
     max-width: 1176px;
     margin: auto;
@@ -269,42 +276,42 @@ header {
     line-height: 2.5rem;
 }
 
-.text-testimonials p {
+.box-testimonials span {
     font-size: 1.5rem;
     line-height: 2.5rem;
     margin-bottom: 2rem;
+    
 }
 
-.box-photo {
-    width: 10rem;
-    height: 10rem;
-    margin: auto;  
-}
 
 .box-photo img {
-    max-width: 100%;
-    height: 100%;
-    object-fit: cover;
+    width: 150px;
+    aspect-ratio: 1;
     border-radius: 50%;
+    object-fit: cover;
 }
 
-.cards .col-12 {
+
+.testimonials .cards {
     background-color: var(--lay-violet);
     color: var(--lay-white);
     text-align: center;
     border-radius: 3rem;
-    margin-bottom: 2rem;   
+    padding: 1rem;
+    margin: 1.5rem;
+    align-items: center;
 }
 
-.box-text-testimonials h4 {
+.box-testimonials h4 {
     color: var(--lay-white);
     text-transform: uppercase;
     margin-top: 1rem;
 }
 
-.box-text-testimonials p {
+.box-testimonials p {
     font-size: 1rem;
     font-weight: 500;
+    color: var(--lay-white);
 }
 
 /* endregion Testimonials */
@@ -367,11 +374,10 @@ header {
     
 }
 
-.box-text-testimonials p {
-    font-size: 2rem;
-    font-weight: 900;
-    color: var(--lay-violet);
-    line-height: 3rem;
+.box-text-aboutus p {
+    font-size: 1rem;
+    color: var(--lay-white);
+    line-height: 2rem;
     margin-bottom: 1.5rem;
 }
 
@@ -391,8 +397,13 @@ header {
     margin-bottom: 2rem;
 }
 
-.box-text-testimonials {
+.box-text-aboutus {
     margin-bottom: 3rem;
+    
+    & p {
+        color: var(--lay-violet);
+        font-size: 2rem;
+    }
 }
 
 
@@ -453,6 +464,9 @@ header {
     color: var(--lay-violet);
     text-decoration: underline;  
 }
+.top-footer {
+    padding: 2rem;
+}
 
 
 /* /*Region Solution Media Query */ 
@@ -461,22 +475,33 @@ header {
 
 @media screen and (min-width: 768px) {
 
-     #site_header {
+     /* #site_header {
         width: 100%;
     }
    
     .container {
         width: 100%;
-    }
+    } */
 
     .col-md-8 {
         width: calc((100% / 12) * 8);
-        background-color: var(--lay-blu);  
+        max-width: 50%;     
+    }
+
+    .col-md-7 {
+        width: calc((100% / 12) * 7);
     }
     
+    .col-md-6  {
+        width: 50%;
+    }
+
+    .col-md-5 {
+        width: calc((100% / 12) * 5);
+    }
+
     .col-md-4 {
-        width: calc((100% / 12 ) * 4);
-        background-color: var(--lay-blu);
+        width: calc((100% / 12 ) * 4);   
     }
 
     .col-md-12 {
@@ -488,9 +513,7 @@ header {
         align-items: center;
         padding-top: 1rem 1rem;
         text-align: justify;     
-    }
-
-    
+    }   
 }
 
 @media screen and (max-width: 1024px) {
@@ -510,7 +533,7 @@ header {
 @media screen and (min-width: 1024px) {
     
     .col-lg-6 {
-        width: calc((100% / 12) * 6);
+        width: 50%
     }
 
     .col-lg-4 {
