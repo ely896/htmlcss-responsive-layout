@@ -87,15 +87,14 @@ body {
 
 ul {
     list-style: none;
-    gap: 1.5rem;
-    
+    gap: 1.5rem;    
 }
+
 a {
     text-decoration: none;
     color: var(--lay-white);
     font-size: 1rem;    
 }
-
 
 .align-items-center {
     align-items: center;
@@ -108,18 +107,17 @@ a {
     background-color: transparent;
     padding: 0.25rem 0.5rem;
     border-radius: 1rem;
-    text-decoration: none;
-        
+    text-decoration: none;        
 }
 
 .btn-white {
     background-color: var(--lay-white);
-    color: var(--lay-dark);
+    color: var(--lay-violet);
 }
 
 .btn-violet {
     background-color: var(--lay-violet);
-    color: var(--lay-white);    
+    color: var(--lay-white);   
 }
 
 .btn-primary {
@@ -127,6 +125,7 @@ a {
     color: var(--lay-white);
     letter-spacing: 0.25rem;
     font-weight: 700;
+   
 }
 
 .btn-circle {
@@ -144,35 +143,61 @@ header {
     padding: 0.75rem;
 }
 
+.hamburger i {
+    font-size: 1.5rem;
+    color: var(--lay-white);
+}
+
 /* End Region Header */
 
 /*Start Region Features */
 
-.feautures p {
-    color: var(--lay-gray);
-    font-weight: 700;
+.feautures .container {
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+    
 }
 
-.application {
-    text-align: left;
-    line-height: 2rem;
+.application p {
+    color: var(--lay-gray);
+    font-weight: 900;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
 }
 
 .phone-img img {
     max-width: 100%;
 }
 
-h3 {
+.application h3 {
     color: var(--lay-primary);
     font-size: 1.5rem;
-    text-align: center;
-    margin: 1.5rem;
+    font-weight: bold;
+    padding: 1rem;    
 }
 
 #stylize {
-    font-size: 5rem;
-    color: var(--lay-primary);
+    font-size: 5.5rem;
+    color: var(--lay-primary);      
 }
+.feautures-title {
+    margin: 1.5rem;
+}
+
+.feautures-title h3 {
+    color: var(--lay-primary);
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-bottom: 1.5rem;
+}
+
+.feautures-title p {
+    color: var(--lay-gray);
+    font-weight: 900;
+}
+
+
 
 /* #region Planning */
 
@@ -240,13 +265,15 @@ h3 {
     color: var(--lay-white);
     text-align: center;
     border-radius: 3rem;
-    margin: 2rem;
+    margin-bottom: 2rem;   
 }
 
 .box-text-testimonials h4 {
     color: var(--lay-white);
     text-transform: uppercase;
 }
+
+
 
 /* endregion Testimonials */
 
@@ -261,7 +288,7 @@ h3 {
     background-color: var(--lay-white);
     color: var(--lay-violet);
     padding: 2rem 2rem;
-    margin: 1.5rem;
+    margin-bottom: 2rem;    
 }
 
 .benefits p {
@@ -282,7 +309,6 @@ h3 {
     color: var(--lay-violet);
     position: absolute;
     margin-right: 0;
-
 }
 
 /*#endregion About Us */
@@ -303,7 +329,8 @@ h3 {
 }
 
 .bottom-footer a {
-    color: var(--lay-violet);   
+    color: var(--lay-violet);
+    text-decoration: underline;  
 }
 
 
