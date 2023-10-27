@@ -223,9 +223,26 @@ header {
     background-color: var(--lay-white);
     color: black;
     border-radius: 3rem;
-    text-align: center;   
+    text-align: center;
+    padding: 2rem;   
 }
 
+.develop h2 {
+    font-weight: 900;
+    margin-bottom: 1.5rem;
+}
+.develop p {
+    font-style: oblique;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+
+.strategic-content h2 {
+    font-size: 2rem;
+    font-weight: 900;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
 /* #endregion Plannning
 
 /* Region Testimonials */
