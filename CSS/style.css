@@ -306,15 +306,19 @@ header {
     font-weight: 500;
 }
 
-
-
 /* endregion Testimonials */
 
 /* Region Benefits */
 
 .benefits {
     background-color: var(--lay-violet);
-    color: var(--lay-white);
+    color: var(--lay-white);    
+}
+
+.benefits-title h1 {
+    margin: 2rem;
+    text-align: center;
+    font-weight: 900;
 }
 
 .benefits .col-12 {
@@ -326,23 +330,71 @@ header {
 
 .benefits p {
     color: var(--lay-gray);
+    margin-bottom: 1.5rem;
+}
+
+.benefits-text h2 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 1.5rem;
+}
+
+.benefits h4 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 /* #endregion Benefits */
 
 /*Region About Us */
+.aboutus .col-12{
+    background-color: var(--lay-white);
+    line-height: 2rem;
+}
+
+#aboutus-text h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: var(--lay-violet);
+    margin-bottom: 2rem;
+}
+
+#aboutus-text p {
+    font-weight: 800;
+    font-style: italic;
+    margin-bottom: 2rem;
+    
+}
+
+.box-text-testimonials p {
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--lay-violet);
+    line-height: 3rem;
+    margin-bottom: 1.5rem;
+}
 
 #look {
+    background-color: #607587;
     display: flex;
-    position: relative;    
+    flex-direction: row-reverse;        
 }
 
 #look span {
     font-size: 4rem;
-    color: var(--lay-violet);
-    position: absolute;
-    margin-right: 0;
+    color: var(--lay-violet);   
 }
+
+.aboutus .box-photo {
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+.box-text-testimonials {
+    margin-bottom: 3rem;
+}
+
+
 
 /*#endregion About Us */
 
