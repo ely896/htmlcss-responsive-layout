@@ -113,6 +113,7 @@ a {
 .btn-white {
     background-color: var(--lay-white);
     color: var(--lay-violet);
+    margin-bottom: 2rem;
 }
 
 .btn-violet {
@@ -402,6 +403,41 @@ header {
 
 .get-started {
     background-color: var(--lay-violet);
+    padding-bottom: 3rem;
+}
+
+.get-started h4 {
+    color: var(--lay-white);
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+}
+
+.get-started h2 {
+    color: var(--lay-white);
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+.get-started h1 {
+    color: var(--lay-yellow);
+    font-size: 3.5rem;
+    font-weight: 900;
+    padding-bottom: 2rem;
+}
+
+.get-started p {
+    color: var(--lay-white);
+    line-height: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.get-started span {
+    color: var(--lay-white);
+    line-height: 1.5rem;
+    
 }
 
 /* #endregion Get Started */
